@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  p {
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    padding: 0;
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  button {
+    outline: transparent;
+    border: none;
+  }
+  body {
+    font-family: $primary-font;
+    color: $primary-font-color;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+  
+    @media screen and (min-width: 320px) {
+      max-width: 390px;
+    }
+  
+  
+    @media screen and (min-width: 1440px) {
+      max-width: 1440px;
+      padding: 0 32px;
+    }
+  }
+  .section {
+    margin: 0 auto;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('../../assets/fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('../../assets/fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../assets/fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('../../assets/fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Regular.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
